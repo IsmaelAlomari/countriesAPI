@@ -2,8 +2,11 @@
 
 
 Clone the project through: `git clone https://github.com/IsmaelAlomari/countriesAPI.git`
+
 Install the required packages: `yarn install`
+
 Run the project by: `yarn start`
+
 
 Endpoints:
 
