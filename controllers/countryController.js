@@ -64,7 +64,7 @@ exports.searchCountry = async (req, res, next) => {
   }
 };
 
-exports.countryCodeByCca2 = async (req, res, next) => {
+exports.countryCurrencyByCca2 = async (req, res, next) => {
   try {
     const { cca2 } = req.params;
 
@@ -90,7 +90,7 @@ exports.countryGroup = async (req, res, next) => {
         country.languages.forEach((language) => {
           if (countriesGroup[language.name])
             countriesGroup[language.name].push(country);
-          else countriesGroup[language.name] = [country];
+          else countriesGroup[language.region] = [country];
         });
       }
     });

@@ -11,7 +11,6 @@ const connectDB = async () => {
   } catch (error) {
     console.log(error);
   }
-  console.log("hello");
 };
 
 module.exports = connectDB;
