@@ -8,7 +8,7 @@ Install the required packages: `yarn install`
 Run the project by: `yarn start`
 
 
-Endpoints:
+# Endpoints:
 
 All Countries:
 
