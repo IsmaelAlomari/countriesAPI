@@ -90,7 +90,7 @@ exports.countryGroup = async (req, res, next) => {
         country.languages.forEach((language) => {
           if (countriesGroup[language.name])
             countriesGroup[language.name].push(country);
-          else countriesGroup[language.region] = [country];
+          else countriesGroup[language.name] = [country];
         });
       }
     });
